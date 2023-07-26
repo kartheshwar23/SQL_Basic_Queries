@@ -1,0 +1,9 @@
+USE ANIMAL;
+SELECT * FROM CATS;
+UPDATE CATS SET Name="Jack" WHERE Name="Jackson";
+SELECT * FROM CATS WHERE Name="Jack";
+UPDATE CATS SET Age=8 WHERE Name="Ringo";
+UPDATE CATS SET Breed="ShortHair" WHERE Breed="Tabby";
+UPDATE CATS SET Age=12 WHERE Breed="Maine Coon";
+UPDATE CATS SET Breed="Maine Coon" WHERE Cat_id=3;
+SELECT * FROM CATS;
